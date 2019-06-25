@@ -1,0 +1,28 @@
+{
+  "name": "pogodamail",
+  "version": "1.0.0",
+  "description": "Aplikacja pogodowa, która sprawdza pogodę i wysyła raport mailem, określoną ilość razy w ciągu dnia",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gosiage/aplikacjapogodowa.git"
+  },
+  "keywords": [
+    "pogoda",
+    "weather"
+  ],
+  "author": "Gosia Gendłek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gosiage/aplikacjapogodowa/issues"
+  },
+  "homepage": "https://github.com/gosiage/aplikacjapogodowa#readme",
+  "dependencies": {
+    "nodemailer": "^6.2.1",
+    "request": "^2.88.0",
+    "yargs": "^13.2.4"
+  }
+}
